@@ -29,7 +29,7 @@ Chrome может показывать уведомление об отладк�
 | `chrome/` | Версия с обработкой запросов через Chrome DevTools Protocol |
 | `firefox/` | Версия с фильтрацией ответа через WebRequest API |
 | `dist/` | Архивы расширений |
-| `build_packages.ps1` | Упаковка исходников в ZIP и XPI |
+| `package-extensions.ps1` | Упаковка исходников в ZIP и XPI |
 
 В каталогах браузеров находятся манифесты, фоновые скрипты, интерфейс настроек, иконки и локализации.
 
@@ -38,7 +38,7 @@ Chrome может показывать уведомление об отладк�
 Из корня репозитория выполните в PowerShell:
 
 ```powershell
-.\build_packages.ps1
+.\package-extensions.ps1
 ```
 
 Скрипт обновляет `dist/google-flow-unlocker-chrome.zip`, `dist/google-flow-unlocker-firefox.zip` и `dist/google-flow-unlocker-firefox.xpi`.
@@ -54,4 +54,3 @@ Chrome может показывать уведомление об отладк�
 Исходный проект: [VadimSokolovGit/Google-Flow-Unlock](https://github.com/VadimSokolovGit/Google-Flow-Unlock). История Git сохранена.
 
 В скачанной версии отдельный файл лицензии не найден; новая лицензия в этой копии не назначена.
-

@@ -1,4 +1,4 @@
-importScripts("patch.js");
+importScripts("flow-patch.js");
 
 const FLOW_HOME = "https://flow.google.com/";
 const FLOW_HOST = "flow.google.com";
